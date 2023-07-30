@@ -1,0 +1,236 @@
+/* Navbar styles */
+nav.custom-navbar {
+    background-color: transparent;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.custom-navbar .brand {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+nav.custom-navbar .right-nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav.custom-navbar .right-nav li {
+    margin: 0 0.5rem;
+}
+
+nav.custom-navbar .right-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav.custom-navbar .right-nav a:hover {
+    color: #ffcc00;
+}
+
+/* Styles for the centered section and Navbar container */
+.navbar-container {
+    background-image: url('bike_3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.custom-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: transparent; /* If needed, set the background color of the custom section */
+}
+
+.custom-section h1 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.custom-section p {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+.custom-section .cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #ffcc00;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.custom-section .cta-button:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+/* Styles for the Previous Work Section */
+/* ... (Existing CSS code) ... */
+
+/* Styles for the First Section Wrapper */
+.first-section-wrapper {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative; /* Add this to make positioning relative for absolute elements inside */
+}
+
+.slides {
+    display: flex;
+    transition: transform 1s ease;
+}
+
+.slides .slide-item {
+    position: relative; /* Position relative for absolute positioning inside */
+}
+
+.slides img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 2rem;
+    margin: 0;
+    padding: 1rem 2rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+    border-radius: 5px;
+}
+/* Optional: If you want to add navigation buttons */
+.carousel-prev,
+.carousel-next {
+    cursor: pointer;
+}
+
+
+
+.content {
+    margin-top: 2rem;
+  }
+
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+
+  .feature {
+    width: 45%;
+    margin-bottom: 1rem;
+  }
+
+  .testimonials {
+    margin-bottom: 2rem;
+  }
+
+  .testimonial {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+
+  .faq {
+    margin-bottom: 2rem;
+  }
+
+  .question {
+    font-weight: bold;
+  }
+
+  .answer {
+    margin-bottom: 1rem;
+  }
+
+
+/* Contact section styles */
+.contact {
+    margin-top: 2rem;
+  }
+
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 2rem;
+    border-radius: 5px;
+  }
+
+  .contact-form label,
+  .contact-form input,
+  .contact-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .contact-form textarea {
+    resize: vertical;
+  }
+
+  .contact-form button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .contact-form button:hover {
+    background-color: #ff8533;
+  }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  footer p {
+    font-size: 1rem;
+  }
+
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }

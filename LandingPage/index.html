@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Bikes Landing Page</title>
+  <style>
+    /* Reset some default styles */
+    body, h1, p, ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+    /* Navbar styles */
+    nav {
+      background-color: #333;
+      padding: 1rem;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav li {
+      margin: 0 1rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+
+    /* Main header styles */
+    header {
+      background-image: url('bike_1.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      display: grid;
+      place-items: center;
+      align-content: center;
+      min-height: 95vh;
+    }
+    header h1,
+    header a {
+      margin: 1rem; /* You can adjust the value as needed */
+    }
+
+    /* Main section styles */
+    section {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+      
+    }
+    section.content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+      /* Add some additional styles for spacing and background color */
+      background-color: #f8f8f8;
+      margin-top: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    section.content h2,
+    section.content p {
+      margin: 0.5rem 0; /* You can adjust the value as needed */
+    }
+
+    /* Call-to-action button styles */
+    .cta-button {
+      display: inline-block;
+      background-color: #ff6600;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      text-decoration: none;
+    }
+
+    .cta-button:hover {
+      background-color: #ff8533;
+    }
+
+    /* Bike showcase styles */
+    .bike-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .bike {
+      width: 300px;
+      margin: 1rem;
+      border: 1px solid #ddd;
+      padding: 1rem;
+      border-radius: 5px;
+    }
+
+    .bike img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    section#contact {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      background-color: #f8f8f8;
+      margin-top: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Add horizontal and vertical spacing to the text inside the contact section */
+    section#contact h2,
+    section#contact p {
+      margin: 0.5rem 0;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    @media (max-width: 767px) {
+      header {
+        background-size: contain;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- Header -->
+  <header>
+    <h1>Custom Bikes</h1>
+    <p>Get your dream bike tailored to your preferences</p>
+    <a href="#contact" class="cta-button">Customize Your Bike Now</a>
+  </header>
+
+   <!-- Main Content -->
+   <section class="content" >
+    <h2>Why Choose Our Custom Bikes?</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Uniquely Crafted</h3>
+        <p>Each bike is handcrafted with attention to detail, ensuring a one-of-a-kind ride that matches your style.</p>
+      </div>
+      <div class="feature">
+        <h3>Premium Components</h3>
+        <p>We use only the highest quality components, delivering superior performance and durability.</p>
+      </div>
+      <div class="feature">
+        <h3>Endless Customization</h3>
+        <p>Customize every aspect of your bike, from frame colors to gear ratios, for a bike that perfectly suits your needs.</p>
+      </div>
+      <div class="feature">
+        <h3>Personalized Fit</h3>
+        <p>We'll work with you to ensure your bike is fitted precisely to your body and riding preferences, for maximum comfort and efficiency.</p>
+      </div>
+    </div>
+    </section>
+    <section id="testimonial">
+    <h2>Customer Testimonials</h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        <p>"My custom bike from Custom Bikes is everything I ever wanted. It's fast, smooth, and looks amazing. Highly recommended!"</p>
+        <p>- John D.</p>
+      </div>
+      <div class="testimonial">
+        <p>"I couldn't be happier with my custom bike. The team at Custom Bikes made the whole process easy and enjoyable. Thank you!"</p>
+        <p>- Emily S.</p>
+      </div>
+      <!-- Add more testimonials as needed -->
+    </div>
+
+    </section>
+
+    <section id="faq"> 
+
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq">
+      <div class="question">Q: How long does it take to build a custom bike?</div>
+      <div class="answer">A: The time to build a custom bike can vary depending on the complexity of your specifications, but we strive to complete it within 4-6 weeks.</div>
+
+      <div class="question">Q: Can I choose the components for my bike?</div>
+      <div class="answer">A: Absolutely! You have full control over the components, colors, and design of your custom bike.</div>
+
+      <div class="question">Q: Do you offer warranties on your bikes?</div>
+      <div class="answer">A: Yes, we provide a comprehensive warranty to cover any manufacturing defects or issues with the components.</div>
+
+      <!-- Add more FAQs as needed -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions or ready to get started on your custom bike? Reach out to us!</p>
+    <p>Email: contact@custombikes.com</p>
+    <p>Phone: (555) 123-4567</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Custom Bikes. All rights reserved.</p>
+  </footer>
+</body>
+</html>

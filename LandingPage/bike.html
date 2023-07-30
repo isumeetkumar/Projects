@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>sumeet custom bike</title>
+</head>
+<body>
+    <div class="navbar-container"> <!-- Add a container to hold the shared background image -->
+        <nav class="custom-navbar">
+            <a href="#" class="brand">Sumeet Custom Bike</a>
+            <ul class="right-nav">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="custom-section">
+            <h1>Custom Bikes</h1>
+            <p>Get your dream bike tailored to your preferences</p>
+            <a href="#contact" class="cta-button">Customize Your Bike Now</a>
+        </section>
+    </div>
+    
+
+    <div class="carousel">
+        <div class="carousel-title-container">
+            <h2 class="carousel-title">Explore Our Custom Bikes</h2>
+        </div>
+        <div class="slides">
+          <img src="bike_4.jpg" alt="Image 1">
+          <img src="bike_5.jpg" alt="Image 2">
+          <img src="bike_2.jpg" alt="Image 3">
+          <img src="bike_1.jpg" alt="Image 4">
+          <!-- Add more images here -->
+        </div>
+    </div>
+
+    <!-- Main Content -->
+  <section class="content">
+    <h2 style="text-align: center;">Why Choose Our Custom Bikes?</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Uniquely Crafted</h3>
+        <p>Each bike is handcrafted with attention to detail, ensuring a one-of-a-kind ride that matches your style.</p>
+      </div>
+      <div class="feature">
+        <h3>Premium Components</h3>
+        <p>We use only the highest quality components, delivering superior performance and durability.</p>
+      </div>
+      <div class="feature">
+        <h3>Endless Customization</h3>
+        <p>Customize every aspect of your bike, from frame colors to gear ratios, for a bike that perfectly suits your needs.</p>
+      </div>
+      <div class="feature">
+        <h3>Personalized Fit</h3>
+        <p>We'll work with you to ensure your bike is fitted precisely to your body and riding preferences, for maximum comfort and efficiency.</p>
+      </div>
+    </div>
+
+    <h2 style="text-align: center;">Customer Testimonials</h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        <p>"My custom bike from Custom Bikes is everything I ever wanted. It's fast, smooth, and looks amazing. Highly recommended!"</p>
+        <p>- John D.</p>
+      </div>
+      <div class="testimonial">
+        <p>"I couldn't be happier with my custom bike. The team at Custom Bikes made the whole process easy and enjoyable. Thank you!"</p>
+        <p>- Emily S.</p>
+      </div>
+      <!-- Add more testimonials as needed -->
+    </div>
+
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq">
+      <div class="question">Q: How long does it take to build a custom bike?</div>
+      <div class="answer">A: The time to build a custom bike can vary depending on the complexity of your specifications, but we strive to complete it within 4-6 weeks.</div>
+
+      <div class="question">Q: Can I choose the components for my bike?</div>
+      <div class="answer">A: Absolutely! You have full control over the components, colors, and design of your custom bike.</div>
+
+      <div class="question">Q: Do you offer warranties on your bikes?</div>
+      <div class="answer">A: Yes, we provide a comprehensive warranty to cover any manufacturing defects or issues with the components.</div>
+
+      <!-- Add more FAQs as needed -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2 style="text-align: center;">Contact Us</h2>
+    <div class="contact-form">
+      <form action="send_contact_form.php" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Custom Bikes. All rights reserved. | 
+      <a href="#contact">Contact Us</a>
+    </p>
+  </footer>
+    
+     <script src="bike.js"></script>   
+</body>
+</html>

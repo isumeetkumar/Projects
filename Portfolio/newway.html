@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sumeet portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      Sumeet Kumar
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#edu">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Home Section -->
+  <section id="home" class="py-5 text-center ">
+    <div class="container reveal">
+      <h1>Welcome to My Portfolio</h1>
+      <p class="lead">I'm a web developer with a passion for creating beautiful, responsive
+        websites.</p>
+        <button  type="button" class="btn btn-outline-light"><a href="#about">Explore More</a> </button>
+    </div>
+  </section>
+  <!-- About Section -->
+  <section id="about" class="py-5 bg-dark text-white">
+    <div class="container reveal">
+      <h2>About Me</h2>
+      <hr class="bg-white">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="2.jpg" alt="About Image" class="img-fluid rounded" class="rounded-circle border 
+border-light" width="300" height="300">
+        </div>
+        <div class="col-md-8">
+          <p><h6>Hello, my name is Sumeet and I was born and raised in Bihar. I have a Bachelor's degree in Physics from Magadh University. I am currently pursuing an MCA at Chandigarh University.</h6></p>
+          <p><h6>Aside from studies, I enjoy playing cricket and listening to music.</h6></p> 
+          
+          <p><h6>I am fluent in English and Hindi and can read and write in both languages.
+            In my spare time, I like to read books and play video games.</h6></p>
+            <div class="col-md-8">
+              <!-- Your existing content goes here -->
+      
+              <!-- Add the Download CV button below -->
+              <a href="resume.pdf" download class="btn btn-outline-light">
+                Download CV
+              </a>
+      
+              <!-- End of Download CV button -->
+      
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- Education -->
+  <section id="edu" class="full-height px-lg-5">
+    <div class="container reveal">
+
+        <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+                
+                <h1>Projects</h1>
+                <hr class="bg-white">
+            </div>
+        </div>
+
+        <div class="row gy-5">
+            <div class="col-lg-6">
+                <div class="row gy-4">
+
+                    <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                        <div class="bg-base p-4 rounded-4 shadow-effect">
+                            <h4>RECOMMENDATION ENGINE</h4>
+                            <p class="text-brand mb-2">● Designed and implemented movie recommendation application using Python.
+                            </p>
+                            <p class="mb-0">● Enabled users to be recommended movies based on 50+ data points </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-6">
+
+              <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                <div class="bg-base p-4 rounded-4 shadow-effect">
+                    <h4>TYPEUP</h4>
+                    <p class="text-brand mb-2">● Designed and implemented website for users to test their Typing Skills using html, Css, JavaScript.</p>
+                    <p class="mb-0"></p>
+                </div>
+            </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+  <!-- Education -->
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-dark text-white">
+    <div class="container reveal">
+      <h2>Contact Me</h2>
+      <hr>
+      <div class="row">
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" class="form-control" id="name" name="name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" name="email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+              <br>
+              <button type="submit" class="btn btn-primary btn-block">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-12">
+          <p>Feel free to get in touch with me if you have any questions or if you'd like to work together on a project.</p>
+          <ul class="list-unstyled">
+            <li>
+              <i class="fas fa-envelope mr-2"></i>
+              Email - sk483693@gmail.com
+            </li>
+            <li>
+              <i class="fas fa-phone mr-2"></i>
+              Phone No. - +91 7979900589
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt mr-2"></i>
+              Address - Chandigarh University, Zakir B.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p id="current-year"></p>
+        </div>
+        <div class="col-md-6 text-right">
+          <p>Designed by <a href="https://www.instagram.com/icaptainmax/">Sumeet Kumar</a> </p>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/esm/popperbase.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="app.js">
+  </script>
+
+</body>
+
+</html>
